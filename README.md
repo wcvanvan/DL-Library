@@ -6,4 +6,6 @@ It contains common neural network modules, e.g. Linear, Convolution, ReLU, Batch
 
 It contains a complete Tensor library, having common Tensor operations, e.g. Add, MatMul, Reshape, Permute, Broadcast, Compact...
 
-The tensors have two kinds of backend. It's either on CPU supported by NumPy or on GPU supported by CUDA. This means the neural network can be trained on either device.
+The tensors have two kinds of backend. It's either on CPU or on GPU supported by CUDA. This means the neural network can be trained on either device.
+
+I have tried training a 9-layer ResNet for classification on CIFAR-10, which can achieve 80+% accuracy in 25 epoch.
