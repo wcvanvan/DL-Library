@@ -160,7 +160,6 @@ class Value:
         return data.numpy() if not isinstance(data, tuple) else [x.numpy() for x in data]
 
 
-### Not needed in HW1
 class TensorTuple(Value):
     """Represent a tuple of tensors.
 
