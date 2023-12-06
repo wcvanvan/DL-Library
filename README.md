@@ -6,6 +6,6 @@ It contains common neural network modules, e.g. Linear, Convolution, ReLU, Batch
 
 It contains a complete Tensor library, having common Tensor operations, e.g. Add, MatMul, Reshape, Permute, Broadcast, Compact...
 
-The tensors have two kinds of devices, CPU and CUDA. This means the neural network can be trained on either device.
+The tensors support two kinds of backend devices, CPU and CUDA.
 
-I have tried training a 9-layer ResNet for classification on CIFAR-10, which can achieve 80+% accuracy in 25 epoch.
+I have trained a 9-layer ResNet for classification on CIFAR-10, which can achieve 80+% accuracy in 25 epoch.
