@@ -1,5 +1,7 @@
 # DL-Library
 
+Assignments of https://dlsyscourse.org
+
 This project is a deep learning library like PyTorch, which can be used to build deep neural networks and do automatic differentiation for backpropagation.
 
 It contains common neural network modules, e.g. Linear, Convolution, ReLU, BatchNorm, LayerNorm, Residual, Dropout...
